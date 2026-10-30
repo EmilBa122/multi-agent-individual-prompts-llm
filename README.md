@@ -91,6 +91,10 @@ Each agent returns structured **JSON**. The Question Intent Agent works only on 
 question and the answer. The Gap and Evasion Agent receives both of their outputs and the Decision Agent receives the outputs of all three 
 previous agents. Later agents therefore reason over clear, structured information instead of free text
 
+## Runtime 
+
+The notebook takes approximately 5 hours and 25 minutes to run on Google Colab with a Tesla T4 GPU
+
 ##  Dataset
 
 The dataset used in this project is available on Hugging Face: [ailsntua/QEvasion](https://huggingface.co/datasets/ailsntua/QEvasion)
